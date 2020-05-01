@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef1ff943-1556-47a8-954f-1253db17a363" name="Default Changelist" comment="" />
+    <list default="true" id="ef1ff943-1556-47a8-954f-1253db17a363" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/scss/components/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_other.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/abstract/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/abstract/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/abstract/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/abstract/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_inout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/abstract/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_home.scss" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bAishaa66JV4JYOzWTVocPQLvr" />
   <component name="PropertiesComponent">
@@ -36,10 +52,30 @@
       <option name="presentableId" value="Default" />
       <updated>1588081506892</updated>
       <workItem from="1588081508079" duration="2966000" />
+      <workItem from="1588096808838" duration="906000" />
+      <workItem from="1588139881800" duration="4853000" />
+      <workItem from="1588168878936" duration="4171000" />
+      <workItem from="1588177478355" duration="7524000" />
+      <workItem from="1588223861980" duration="15584000" />
+      <workItem from="1588267087300" duration="13616000" />
+      <workItem from="1588317232397" duration="33178000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

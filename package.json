@@ -1,0 +1,22 @@
+{
+  "name": "illustrations.page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zornicfilip/illustrations_page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zornicfilip/illustrations_page/issues"
+  },
+  "homepage": "https://github.com/zornicfilip/illustrations_page#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.0"
+  }
+}

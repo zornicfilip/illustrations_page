@@ -1,0 +1,39 @@
+.float {
+  &-left {
+    float: left;
+  }
+  &-right {
+    float: right;
+  }
+}
+
+.text-center {
+  text-align: center;
+  display: inline-block;
+}
+
+.block-center {
+  margin: 0 auto;
+}
+
+.active {
+  color: darken($primary, 30%);
+  border-bottom: 2px solid $primary;
+}
+
+.d- {
+  &block {
+    display: block;
+  }
+  &inline {
+    display: inline;
+  }
+  &inline-block {
+    display: inline-block;
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
