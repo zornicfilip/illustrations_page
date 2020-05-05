@@ -798,6 +798,9 @@ footer {
   column-gap: 10%;
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 400; }
+  @media (max-width: 768px) {
+    .login {
+      text-align: center; } }
   .login p {
     margin: 0;
     padding: 0; }
@@ -811,6 +814,11 @@ footer {
   .login-header {
     margin-bottom: 150px;
     margin-top: 30px; }
+    @media (max-width: 768px) {
+      .login-header {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        justify-items: center; } }
     .login-header .signup {
       font-family: 'Baloo Tamma 2', cursive;
       font-weight: 700;
@@ -822,6 +830,9 @@ footer {
       padding-right: 30px;
       border-radius: 10px;
       transition: .3s all ease; }
+      @media (max-width: 768px) {
+        .login-header .signup {
+          margin: 0 auto; } }
       .login-header .signup:hover {
         background-color: #0D3E3E;
         color: #ffffff; }
@@ -830,11 +841,21 @@ footer {
     font-weight: 400; }
     .login-form button {
       margin: 20px 0; }
+      @media (max-width: 768px) {
+        .login-form button {
+          display: block;
+          margin: 40px auto; } }
   .login-container {
     display: block; }
+    @media (max-width: 768px) {
+      .login-container {
+        justify-items: center; } }
     .login-container input {
       width: 100%;
       margin: 10px 0; }
+      @media (max-width: 768px) {
+        .login-container input {
+          width: 90%; } }
   .login-image-container {
     padding: 10px;
     border-radius: 25px;
@@ -843,3 +864,10 @@ footer {
       position: relative;
       right: 90px;
       width: 100%; }
+      @media (max-width: 768px) {
+        .login-image-container img {
+          position: static;
+          margin-bottom: 30px; } }
+
+.checkbox input {
+  width: unset; }

@@ -4,6 +4,10 @@
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 400;
 
+  @include respond-below(sm) {
+    text-align: center;
+  }
+
   p {
     margin: 0;
     padding: 0;
@@ -24,6 +28,12 @@
     margin-bottom: 150px;
     margin-top: 30px;
 
+    @include respond-below(sm) {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      justify-items: center;
+    }
+
     .signup {
       font-family: 'Baloo Tamma 2', cursive;
       font-weight: 700;
@@ -35,6 +45,10 @@
       padding-right: 30px;
       border-radius: 10px;
       transition: .3s all ease;
+
+      @include respond-below(sm) {
+        margin: 0 auto;
+      }
 
       &:hover {
         background-color: $primary;
@@ -49,16 +63,28 @@
 
     button {
       margin: 20px 0;
+
+      @include respond-below(sm) {
+        display: block;
+        margin: 40px auto;
+      }
     }
   }
 
   &-container {
-
     display: block;
+
+    @include respond-below(sm) {
+       justify-items: center;
+     }
 
     input {
       width: 100%;
       margin: 10px 0;
+
+      @include respond-below(sm) {
+        width: 90%;
+      }
     }
   }
 
@@ -71,6 +97,17 @@
       position: relative;
       right: 90px;
       width: 100%;
+
+      @include respond-below(sm) {
+        position: static;
+        margin-bottom: 30px;
+      }
     }
+  }
+}
+
+.checkbox {
+  input {
+    width: unset;
   }
 }
