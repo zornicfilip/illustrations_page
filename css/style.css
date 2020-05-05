@@ -290,6 +290,17 @@
       box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.3);
       cursor: pointer; }
 
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #F5F5F5;
+  border: 1px solid transparent; }
+  input:hover, input:focus, input:active {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #E6E6E6; }
+
 @media (max-width: 768px) {
   body {
     margin-top: 100px; } }
@@ -781,3 +792,54 @@ footer {
       .contact img {
         width: 100%;
         position: static; } }
+
+.login {
+  row-gap: 10%;
+  column-gap: 10%;
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: 400; }
+  .login p {
+    margin: 0;
+    padding: 0; }
+  .login a {
+    text-decoration: underline;
+    color: #0D3E3E;
+    transition: .3s all ease; }
+    .login a:hover {
+      color: black;
+      text-decoration: none; }
+  .login-header {
+    margin-bottom: 150px;
+    margin-top: 30px; }
+    .login-header .signup {
+      font-family: 'Baloo Tamma 2', cursive;
+      font-weight: 700;
+      line-height: 68px;
+      float: right;
+      color: #0D3E3E;
+      text-decoration: none;
+      padding-left: 30px;
+      padding-right: 30px;
+      border-radius: 10px;
+      transition: .3s all ease; }
+      .login-header .signup:hover {
+        background-color: #0D3E3E;
+        color: #ffffff; }
+  .login-form {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 400; }
+    .login-form button {
+      margin: 20px 0; }
+  .login-container {
+    display: block; }
+    .login-container input {
+      width: 100%;
+      margin: 10px 0; }
+  .login-image-container {
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #F5F5F5; }
+    .login-image-container img {
+      position: relative;
+      right: 90px;
+      width: 100%; }

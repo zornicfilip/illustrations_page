@@ -1,0 +1,76 @@
+.login {
+  row-gap: 10%;
+  column-gap: 10%;
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: 400;
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: underline;
+    color: $primary;
+    transition: .3s all ease;
+
+    &:hover {
+      color: darken($primary, 25%);
+      text-decoration: none;
+    }
+  }
+
+  &-header {
+    margin-bottom: 150px;
+    margin-top: 30px;
+
+    .signup {
+      font-family: 'Baloo Tamma 2', cursive;
+      font-weight: 700;
+      line-height: 68px;
+      float: right;
+      color: $primary;
+      text-decoration: none;
+      padding-left: 30px;
+      padding-right: 30px;
+      border-radius: 10px;
+      transition: .3s all ease;
+
+      &:hover {
+        background-color: $primary;
+        color: $white;
+      }
+    }
+  }
+
+  &-form {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 400;
+
+    button {
+      margin: 20px 0;
+    }
+  }
+
+  &-container {
+
+    display: block;
+
+    input {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+
+  &-image-container {
+    padding: 10px;
+    border-radius: 25px;
+    background-color: $gray-light;
+
+    img {
+      position: relative;
+      right: 90px;
+      width: 100%;
+    }
+  }
+}

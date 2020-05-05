@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef1ff943-1556-47a8-954f-1253db17a363" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scss/components/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_input.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_navigation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_other.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signup/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/abstract/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/abstract/_functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/abstract/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/abstract/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_inout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/abstract/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_login.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +52,10 @@
       <workItem from="1588177478355" duration="7524000" />
       <workItem from="1588223861980" duration="15584000" />
       <workItem from="1588267087300" duration="13616000" />
-      <workItem from="1588317232397" duration="33178000" />
+      <workItem from="1588317232397" duration="34306000" />
+      <workItem from="1588400886067" duration="3360000" />
+      <workItem from="1588654916813" duration="16261000" />
+      <workItem from="1588694595368" duration="708000" />
     </task>
     <servers />
   </component>
