@@ -32,6 +32,10 @@
         padding: 0 15px; } }
   .wrapper-60 {
     max-width: 60%; }
+    @media (max-width: 991px) {
+      .wrapper-60 {
+        max-width: 100%;
+        padding: 0 15px; } }
     @media (max-width: 768px) {
       .wrapper-60 {
         max-width: 100%;
@@ -75,7 +79,7 @@
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); } }
   .grid-3x {
     grid-template-columns: repeat(3, 1fr); }
-    @media (max-width: 768px) {
+    @media (max-width: 991px) {
       .grid-3x {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); } }
   .grid-4x {
@@ -600,6 +604,42 @@ footer {
         font-size: 15px;
         text-align: center; } }
 
+.dashboard-highlight-text {
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: 400;
+  margin: 50px 0; }
+  .dashboard-highlight-text h3 {
+    display: inline-block;
+    margin: 0;
+    font-weight: 700; }
+  .dashboard-highlight-text p {
+    margin: 0; }
+
+.dashboard-package {
+  padding: 5px 20px !important; }
+
+.dashboard-btn {
+  margin-top: 10px; }
+
+.cart {
+  margin-left: auto !important; }
+  .cart:hover {
+    border-bottom: 1px solid transparent; }
+  .cart-counter {
+    position: relative;
+    border-radius: 20px;
+    padding: 0 6px;
+    background-color: red;
+    color: #ffffff;
+    top: -20px;
+    left: -13px;
+    font-size: 8px; }
+  .cart img {
+    width: 25px; }
+
+.nav-item.sign-out:last-child {
+  margin-left: 10px; }
+
 .hero {
   margin-top: 40px;
   padding: 20px 0 20px 40px;
@@ -870,4 +910,5 @@ footer {
           margin-bottom: 30px; } }
 
 .checkbox input {
-  width: unset; }
+  width: unset;
+  padding: 5px; }

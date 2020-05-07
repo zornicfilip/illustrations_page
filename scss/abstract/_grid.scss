@@ -31,6 +31,7 @@
   }
   &-50 {
     max-width: 50%;
+
     @include respond-below(sm) {
       max-width: 100%;
       padding: 0 15px;
@@ -38,6 +39,11 @@
   }
   &-60 {
     max-width: 60%;
+
+    @include respond-below(md) {
+      max-width: 100%;
+      padding: 0 15px;
+    }
     @include respond-below(sm) {
       max-width: 100%;
       padding: 0 15px;
@@ -94,7 +100,7 @@
   &-3x {
     grid-template-columns: repeat(3, 1fr);
 
-    @include respond-below(sm) {
+    @include respond-below(md) {
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
   }

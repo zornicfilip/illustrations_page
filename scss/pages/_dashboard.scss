@@ -1,0 +1,52 @@
+.dashboard {
+  &-highlight-text {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 400;
+    margin: 50px 0;
+
+    h3 {
+      display: inline-block;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &-package {
+    padding: 5px 20px !important;
+  }
+
+  &-btn {
+    margin-top: 10px;
+  }
+}
+
+.cart {
+  margin-left: auto !important;
+
+  &:hover {
+    border-bottom: 1px solid transparent;
+  }
+
+  &-counter {
+    position: relative;
+    border-radius: 20px;
+    padding: 0 6px;
+    background-color: red;
+    color: $white;
+    top: -20px;
+    left: -13px;
+    font-size: 8px;
+  }
+
+  img {
+    width: 25px;
+  }
+}
+
+.nav-item.sign-out:last-child {
+  margin-left: 10px;
+}
