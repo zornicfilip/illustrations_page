@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef1ff943-1556-47a8-954f-1253db17a363" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dashboard/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/abstract/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/abstract/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pages/_dashboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_dashboard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pages/_login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_login.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +18,7 @@
   <component name="ProjectId" id="1bAishaa66JV4JYOzWTVocPQLvr" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hPage/Design/Templates/templates/git/styled/redesign_16/dev" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -57,7 +54,8 @@
       <workItem from="1588654916813" duration="16261000" />
       <workItem from="1588694595368" duration="9667000" />
       <workItem from="1588835916175" duration="9252000" />
-      <workItem from="1588854921743" duration="6122000" />
+      <workItem from="1588854921743" duration="9880000" />
+      <workItem from="1588917106217" duration="974000" />
     </task>
     <servers />
   </component>
