@@ -16,10 +16,6 @@
     font-weight: 700;
   }
 
-  &-container {
-    //height: content-box;
-  }
-
   &-image {
     padding: 20px;
     border-radius: 20px;
@@ -34,6 +30,18 @@
       display: block;
       margin: 0 auto;
     }
+  }
+}
+
+.flat-people {
+  max-width: 260px;
+  position: relative;
+  left: 140px;
+
+  @include respond-below(md) {
+    position: static;
+    display: block;
+    margin: 0 auto;
   }
 }
 

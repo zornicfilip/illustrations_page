@@ -939,6 +939,16 @@ footer {
       display: block;
       margin: 0 auto; }
 
+.flat-people {
+  max-width: 260px;
+  position: relative;
+  left: 140px; }
+  @media (max-width: 991px) {
+    .flat-people {
+      position: static;
+      display: block;
+      margin: 0 auto; } }
+
 .divider-border {
   display: block;
   width: 100%;
