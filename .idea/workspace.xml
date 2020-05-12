@@ -2,29 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef1ff943-1556-47a8-954f-1253db17a363" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/isometric_life/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flat_people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flat_people/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/flat_people/animals.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/flat_people/animals.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/flat_people/art.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/flat_people/art.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/flat_people/checkout.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/flat_people/checkout.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/flat_people/clients.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/flat_people/clients.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/flat_people/computer.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/flat_people/computer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/flat_people/dating.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/flat_people/dating.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/flat_people/empty_list.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/flat_people/empty_list.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/flat_people/faq.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/flat_people/faq.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/flat_people/general_error_warning.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/flat_people/general_error_warning.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/flat_people/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/flat_people/login.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/flat_people/logout.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/flat_people/logout.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/flat_people/page_not_found.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/flat_people/page_not_found.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/flat_people/password_forgotten.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/flat_people/password_forgotten.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/flat_people/payment_method.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/flat_people/pricing.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/flat_people/pricing.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/flat_people/shopping_cart.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/flat_people/shopping_cart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/flat_people/signup.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/flat_people/signup.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/flat_people/social_media.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/flat_people/social_media.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/flat_people/team.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/flat_people/team.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/flat_people/under_construction.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/flat_people/under_construction.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/isometric_life/animals.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/isometric_life/animals.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/isometric_life/art.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/isometric_life/art.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/isometric_life/checkout.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/isometric_life/checkout.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/isometric_life/clients.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/isometric_life/clients.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/isometric_life/computer.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/isometric_life/computer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/isometric_life/dating.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/isometric_life/dating.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/isometric_life/empty_list.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/isometric_life/empty_list.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/isometric_life/faq.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/isometric_life/faq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/isometric_life/general_error_warning.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/isometric_life/general_error_warning.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/isometric_life/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/isometric_life/login.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/isometric_life/logout.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/isometric_life/logout.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/isometric_life/page_not_found.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/isometric_life/page_not_found.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/isometric_life/password_forgotten.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/isometric_life/password_forgotten.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/isometric_life/payment_methods.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/isometric_life/payment_methods.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/isometric_life/pricing.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/isometric_life/pricing.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/isometric_life/shopping_cart.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/isometric_life/shopping_cart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/isometric_life/signup.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/isometric_life/signup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/isometric_life/social_media.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/isometric_life/social_media.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/isometric_life/team.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/isometric_life/team.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/isometric_life/under_construction.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/isometric_life/under_construction.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/just_blue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/just_blue/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/pages/_assets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_assets.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,7 +81,7 @@
       <workItem from="1588917106217" duration="974000" />
       <workItem from="1589096556787" duration="7583000" />
       <workItem from="1589197764472" duration="14723000" />
-      <workItem from="1589260129754" duration="9293000" />
+      <workItem from="1589260129754" duration="11328000" />
     </task>
     <servers />
   </component>

@@ -949,6 +949,16 @@ footer {
       display: block;
       margin: 0 auto; } }
 
+.isometric-life {
+  max-width: 320px;
+  position: relative;
+  left: 100px; }
+  @media (max-width: 991px) {
+    .isometric-life {
+      position: static;
+      display: block;
+      margin: 0 auto; } }
+
 .divider-border {
   display: block;
   width: 100%;
@@ -959,7 +969,7 @@ footer {
   background-color: #F5F5F5;
   padding: 30px;
   border-radius: 20px;
-  margin: 60px 0; }
+  margin-bottom: 60px; }
   .topics-list {
     padding: 0;
     margin: 0; }

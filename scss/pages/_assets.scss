@@ -45,6 +45,18 @@
   }
 }
 
+.isometric-life {
+  max-width: 320px;
+  position: relative;
+  left: 100px;
+
+  @include respond-below(md) {
+    position: static;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 .divider-border {
   display: block;
   width: 100%;
@@ -56,7 +68,7 @@
   background-color: $gray-light;
   padding: 30px;
   border-radius: 20px;
-  margin: 60px 0;
+  margin-bottom: 60px;
 
   &-list {
     padding: 0;
