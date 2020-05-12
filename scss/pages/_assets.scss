@@ -1,0 +1,84 @@
+.assets {
+  column-gap: 15px;
+
+  &-description {
+    color: $primary;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 700;
+    font-size: 45px;
+    display: inline-block;
+    padding: 40px;
+  }
+
+  &-title {
+    color: $primary;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 700;
+  }
+
+  &-container {
+    //height: content-box;
+  }
+
+  &-image {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: $gray-light;
+    max-height: 150px;
+
+    img  {
+      max-width: 100%;
+      max-height: 150px;
+      justify-self: center;
+      align-self: center;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
+.divider-border {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid $primary;
+  margin: 30px 0;
+}
+
+.topics {
+  background-color: $gray-light;
+  padding: 30px;
+  border-radius: 20px;
+  margin: 60px 0;
+
+  &-list {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.list {
+  &-title {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    color: $primary;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 700;
+    padding: 10px 0;
+  }
+
+  &-item {
+    list-style-type: none;
+    text-decoration: none;
+    color: $primary;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 12px;
+  }
+}
+
+p.assets-title {
+  margin-left: 10px;
+  font-size: 12px;
+}

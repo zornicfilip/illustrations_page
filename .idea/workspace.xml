@@ -2,9 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef1ff943-1556-47a8-954f-1253db17a363" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/scss/pages/_assets.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/abstract/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/abstract/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/just_blue/Mask Group 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/just_blue/Payment methods-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/just_blue/animals.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/just_blue/animals.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/just_blue/art.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/just_blue/art.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/just_blue/cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/just_blue/checkout.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/just_blue/checkout.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/just_blue/clients.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/just_blue/clients.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/just_blue/computer.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/just_blue/computer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/just_blue/dating.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/just_blue/dating.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/just_blue/empty_list.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/just_blue/empty_list.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/just_blue/faq.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/just_blue/faq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/just_blue/general_error_warning.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/just_blue/general_error_warning.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/just_blue/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/just_blue/login.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/just_blue/logout.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/just_blue/logout.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/just_blue/page_not_found.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/just_blue/page_not_found.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/just_blue/pricing.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/just_blue/pricing.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/just_blue/signup.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/just_blue/signup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/just_blue/social_media.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/just_blue/social_media.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/just_blue/team.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/just_blue/team.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/just_blue/under_construction.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/just_blue/under_construction.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/just_blue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/just_blue/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_flat_people.scss" beforeDir="false" afterPath="$PROJECT_DIR$/flat_people/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_isometric_life.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_just_blue.scss" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +43,7 @@
   <component name="ProjectId" id="1bAishaa66JV4JYOzWTVocPQLvr" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hPage/Design/Templates/templates/git/styled/redesign_16/dev" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -56,6 +81,9 @@
       <workItem from="1588835916175" duration="9252000" />
       <workItem from="1588854921743" duration="9880000" />
       <workItem from="1588917106217" duration="974000" />
+      <workItem from="1589096556787" duration="7583000" />
+      <workItem from="1589197764472" duration="14723000" />
+      <workItem from="1589260129754" duration="6056000" />
     </task>
     <servers />
   </component>
