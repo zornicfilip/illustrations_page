@@ -1,4 +1,7 @@
 body {
+  margin: 0px;
+  padding: 0px;
+
   @include respond-below(sm) {
     margin-top: 100px;
   }

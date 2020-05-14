@@ -7,7 +7,7 @@
     font-weight: 700;
     font-size: 45px;
     display: inline-block;
-    padding: 40px;
+    padding: 40px 0;
   }
 
   &-title {
@@ -101,4 +101,93 @@
 p.assets-title {
   margin-left: 10px;
   font-size: 12px;
+}
+
+.package {
+  &-name {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+  &-price {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 700;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 50px;
+  }
+}
+
+.compatibility {
+  margin-top: 40px;
+  background-color: $gray-light;
+  border-radius: 20px;
+  padding: 10px 30px;
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: 400;
+  font-size: 12px;
+
+  &-info {
+    display: inline-block;
+    margin-right: 20px;
+
+    img {
+      height: 15px;
+      margin-bottom: -4px;
+    }
+  }
+
+  &-apps {
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+
+    &-img {
+      height: 20px;
+      margin-bottom: -6px;
+      margin-left: 10px;
+    }
+  }
+}
+
+.specs {
+  margin-top: 20px;
+
+  &-container {
+    display: inline;
+    float: left;
+    width: max-content;
+
+    &:first-child {
+      margin-right: 20px;
+    }
+  }
+
+  &-title {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 400;
+    line-height: 10px;
+    font-size: 15px;
+    color: $gray-70;
+  }
+
+  &-item {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 10px;
+  }
+
+  button {
+    padding: 5px 40px;
+    font-size: 14px;
+
+    @include respond-below(sm) {
+      width: 100%;
+      margin: 20px 0;
+      padding: 15px;
+      font-size: 18px;
+    }
+  }
 }

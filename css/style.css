@@ -294,6 +294,29 @@
       box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.3);
       cursor: pointer; }
 
+.go-back {
+  display: inline-block; }
+  .go-back span {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 400;
+    color: #00B7B7;
+    font-size: 14px;
+    position: relative;
+    left: 0;
+    transition: all .3s ease; }
+  .go-back img {
+    width: 20px;
+    margin-bottom: -3px;
+    margin-right: 5px;
+    position: relative;
+    right: 0;
+    transition: all .3s ease; }
+  .go-back:hover span {
+    left: 7px;
+    color: black; }
+  .go-back:hover img {
+    right: 4px; }
+
 input {
   margin-bottom: 10px;
   padding: 10px;
@@ -305,9 +328,12 @@ input {
     box-shadow: none;
     border: 1px solid #E6E6E6; }
 
-@media (max-width: 768px) {
-  body {
-    margin-top: 100px; } }
+body {
+  margin: 0px;
+  padding: 0px; }
+  @media (max-width: 768px) {
+    body {
+      margin-top: 100px; } }
 
 .logo {
   height: 100%; }
@@ -512,10 +538,6 @@ input {
   @media (max-width: 768px) {
     .container {
       display: block; } }
-
-body {
-  margin: 0px;
-  padding: 0px; }
 
 .float-left {
   float: left; }
@@ -920,6 +942,14 @@ footer {
   width: unset;
   padding: 5px; }
 
+.forgot-password {
+  row-gap: 10%;
+  column-gap: 5%;
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: 400; }
+  .forgot-password-form {
+    margin-top: 50px; }
+
 .assets {
   column-gap: 15px; }
   .assets-description {
@@ -928,7 +958,7 @@ footer {
     font-weight: 700;
     font-size: 45px;
     display: inline-block;
-    padding: 40px; }
+    padding: 40px 0; }
   .assets-title {
     color: #0D3E3E;
     font-family: 'Baloo Tamma 2', cursive;
@@ -1002,6 +1032,70 @@ footer {
 p.assets-title {
   margin-left: 10px;
   font-size: 12px; }
+
+.package-name {
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: 700;
+  font-size: 12px; }
+
+.package-price {
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: 700;
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 50px; }
+
+.compatibility {
+  margin-top: 40px;
+  background-color: #F5F5F5;
+  border-radius: 20px;
+  padding: 10px 30px;
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: 400;
+  font-size: 12px; }
+  .compatibility-info {
+    display: inline-block;
+    margin-right: 20px; }
+    .compatibility-info img {
+      height: 15px;
+      margin-bottom: -4px; }
+  .compatibility-apps {
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 5px; }
+    .compatibility-apps-img {
+      height: 20px;
+      margin-bottom: -6px;
+      margin-left: 10px; }
+
+.specs {
+  margin-top: 20px; }
+  .specs-container {
+    display: inline;
+    float: left;
+    width: max-content; }
+    .specs-container:first-child {
+      margin-right: 20px; }
+  .specs-title {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 400;
+    line-height: 10px;
+    font-size: 15px;
+    color: #b3b3b3; }
+  .specs-item {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 10px; }
+  .specs button {
+    padding: 5px 40px;
+    font-size: 14px; }
+    @media (max-width: 768px) {
+      .specs button {
+        width: 100%;
+        margin: 20px 0;
+        padding: 15px;
+        font-size: 18px; } }
 
 .btn-add-to-cart {
   margin-left: 10px; }

@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef1ff943-1556-47a8-954f-1253db17a363" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets_picker/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/pages/assets_picker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forgot_password/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/pages/_forgot_password.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flat_people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flat_people/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Group 900.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/isometric_life/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/isometric_life/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/just_blue/Mask Group 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/just_blue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/just_blue/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_navigation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/components/_other.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_other.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_assets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_assets.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +70,8 @@
       <workItem from="1589096556787" duration="7583000" />
       <workItem from="1589197764472" duration="14723000" />
       <workItem from="1589260129754" duration="17329000" />
-      <workItem from="1589352311041" duration="17850000" />
+      <workItem from="1589352311041" duration="18616000" />
+      <workItem from="1589434482576" duration="25288000" />
     </task>
     <servers />
   </component>
