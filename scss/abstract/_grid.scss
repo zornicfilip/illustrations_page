@@ -96,6 +96,14 @@
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
   }
+  &-2x-wide {
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 3%;
+
+    @include respond-below(sm) {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+  }
   &-3x {
     grid-template-columns: repeat(3, 1fr);
 
