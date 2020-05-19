@@ -24,6 +24,20 @@
     }
   }
 
+  h5 {
+    margin: 0 0 35px 0;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 18px;
+    color: $primary;
+
+    @include respond-below(sm) {
+      font-size: 15px;
+      text-align: center;
+    }
+  }
+
   &-container {
     .border {
       border-bottom: 2px solid $primary;
@@ -39,6 +53,7 @@
 
     @include respond-below(sm) {
       width: 100%;
+      position: static;
     }
   }
 

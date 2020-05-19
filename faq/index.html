@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Illustrations.page</title>
+    <script src="https://kit.fontawesome.com/0104d67982.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="wrapper wrapper-60">
+    <header>
+        <nav class="nav">
+            <img src="../img/logo.png" alt="header logo" class="logo">
+            <a href="" class="nav-item">Assets</a>
+            <a href="" class="nav-item">Custom</a>
+            <a href="" class="nav-item">Contact</a>
+            <a href="" class="nav-item">Sign In</a>
+        </nav>
+
+
+        <div class="container">
+            <div class="header-container">
+                <img src="../img/logo.png" alt="header logo" class="logo">
+            </div>
+            <button id="burger" class="open-main-nav">
+                <span class="burger"></span>
+            </button>
+            <nav class="main-nav" id="main-nav">
+                <ul>
+                    <li>
+                        <a href="#">Assets</a>
+                    </li>
+                    <li>
+                        <a href="#">Custom</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Sign In</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="imprint">
+            <div class="grid grid-2x">
+                <div>
+                    <h1 class="faq-title">
+                        FAQ
+                    </h1>
+
+                    <h5 class="faq-title-text">
+                        Here you will find most common questions and answers to them.
+                    </h5>
+                    <h5 class="faq-title-text">
+                        If that isn't helpful. <br>
+                        Feel free to write us at <br>
+                        <span>
+                           <a href="mailto:hello@illustrations.page.com" class="contact-link">
+                               hello@illustration-page.com
+                           </a>
+                       </span>
+                    </h5>
+                </div>
+                <div>
+                    <img src="../img/faq.png" alt="faq illustration1">
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+<div class="wrapper wrapper-60">
+    <section>
+
+        <button class="accordion">Frequent and common question goes here <span class="float-right"><i class="fas fa-chevron-down"></i></span></button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <button class="accordion">Frequent and common question goes here <span class="float-right"><i class="fas fa-chevron-down"></i></span></button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <button class="accordion">Frequent and common question goes here <span class="float-right"><i class="fas fa-chevron-down"></i></span></button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <div class="wrapper wrapper-60">
+        <div class="footer-primary">
+            <div class="grid grid-4x">
+                <div>
+                    <img src="../img/logo.png" alt="logo footer" class="logo-footer">
+                    <div class="social">
+                        <a href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Assets</h4>
+                    <ul>
+                        <li>
+                            <a href="#">Just Blue</a>
+                        </li>
+                        <li>
+                            <a href="#">Isometric Life</a>
+                        </li>
+                        <li>
+                            <a href="#">Flat People</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Other</h4>
+                    <ul>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">License</a>
+                        </li>
+                        <li>
+                            <a href="#">Impressum</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-footer">
+                        Sign Up
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-secondary">
+            <div class="grid grid-1x">
+                <p>
+                    Copyright 2020 - Illustrations.page
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+
+    let burger = document.getElementById('burger'),
+        nav    = document.getElementById('main-nav');
+
+    burger.addEventListener('click', function(e){
+        this.classList.toggle('is-open');
+        nav.classList.toggle('is-open');
+    });
+
+    /* Onload demo - dirty timeout */
+    let clickEvent = new Event('click');
+
+    window.addEventListener('load', function(e) {
+        slowmo.dispatchEvent(clickEvent);
+        burger.dispatchEvent(clickEvent);
+
+        setTimeout(function(){
+            burger.dispatchEvent(clickEvent);
+        }, 5500);
+    });
+
+</script>
+<script src="../js/accordion.js"></script>
+</body>
+</html>

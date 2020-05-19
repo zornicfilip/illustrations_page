@@ -633,6 +633,36 @@ footer {
         font-size: 15px;
         text-align: center; } }
 
+.accordion {
+  background-color: transparent;
+  color: #0D3E3E;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #0D3E3E;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: all 0.4s ease;
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: 700; }
+  .accordion:hover {
+    border-bottom: 2px solid #1DC3D8; }
+
+.active {
+  background-color: #F5F5F5;
+  border-bottom: 2px solid transparent; }
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: 400; }
+
 .dashboard-highlight-text {
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: 400;
@@ -1206,6 +1236,17 @@ p.assets-title {
       .imprint h1 {
         font-size: 30px;
         text-align: center; } }
+  .imprint h5 {
+    margin: 0 0 35px 0;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 18px;
+    color: #0D3E3E; }
+    @media (max-width: 768px) {
+      .imprint h5 {
+        font-size: 15px;
+        text-align: center; } }
   .imprint-container .border {
     border-bottom: 2px solid #0D3E3E;
     width: 100%;
@@ -1216,7 +1257,8 @@ p.assets-title {
     left: 80px; }
     @media (max-width: 768px) {
       .imprint img {
-        width: 100%; } }
+        width: 100%;
+        position: static; } }
   .imprint-heading, .imprint-title {
     font-family: 'Baloo Tamma 2', cursive;
     font-weight: 700; }
@@ -1224,3 +1266,20 @@ p.assets-title {
     font-family: 'Baloo Tamma 2', cursive;
     font-weight: 400;
     line-height: 16px; }
+
+.faq-title {
+  display: inline-block;
+  margin-bottom: 25px !important; }
+  @media (max-width: 768px) {
+    .faq-title {
+      display: block;
+      margin: 0 auto; } }
+  .faq-title-text .contact-link {
+    color: #0D3E3E;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 22px; }
+    .faq-title-text .contact-link:hover {
+      text-decoration: underline; }

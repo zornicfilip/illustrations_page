@@ -1,0 +1,34 @@
+.accordion {
+  background-color: transparent;
+  color: $primary;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid $primary;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: all 0.4s ease;
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: 700;
+
+  &:hover {
+    border-bottom: 2px solid #1DC3D8;
+  }
+}
+
+.active {
+  background-color: $gray-light;
+  border-bottom: 2px solid transparent;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: 400;
+}
