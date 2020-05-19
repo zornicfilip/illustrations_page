@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef1ff943-1556-47a8-954f-1253db17a363" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/new_password/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/pages/_reset_password.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imprint/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/pages/_imrint.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forgot_password/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/forgot_password/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,7 +64,8 @@
       <workItem from="1589260129754" duration="17329000" />
       <workItem from="1589352311041" duration="18616000" />
       <workItem from="1589434482576" duration="26951000" />
-      <workItem from="1589635490321" duration="2194000" />
+      <workItem from="1589635490321" duration="3458000" />
+      <workItem from="1589866603512" duration="9105000" />
     </task>
     <servers />
   </component>

@@ -1184,3 +1184,43 @@ p.assets-title {
 
 .reset-password-btn {
   width: 100%; }
+
+.imprint {
+  margin-top: 40px;
+  padding: 20px 0 20px 40px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  width: 80%; }
+  @media (max-width: 768px) {
+    .imprint {
+      padding: 20px;
+      width: auto; } }
+  .imprint h1 {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 700;
+    line-height: 55px;
+    font-size: 60px;
+    margin: 20px 0px 0px 0px;
+    color: #0D3E3E; }
+    @media (max-width: 768px) {
+      .imprint h1 {
+        font-size: 30px;
+        text-align: center; } }
+  .imprint-container .border {
+    border-bottom: 2px solid #0D3E3E;
+    width: 100%;
+    margin: 15px 0px; }
+  .imprint img {
+    width: 260px;
+    position: relative;
+    left: 80px; }
+    @media (max-width: 768px) {
+      .imprint img {
+        width: 100%; } }
+  .imprint-heading, .imprint-title {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 700; }
+  .imprint-text {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 400;
+    line-height: 16px; }

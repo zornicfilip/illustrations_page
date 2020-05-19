@@ -1,0 +1,55 @@
+.imprint {
+  margin-top: 40px;
+  padding: 20px 0 20px 40px;
+  background-color: $white;
+  border-radius: 25px;
+  width: 80%;
+
+  @include respond-below(sm) {
+    padding: 20px;
+    width: auto;
+  }
+
+  h1 {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 700;
+    line-height: 55px;
+    font-size: 60px;
+    margin: 20px 0px 0px 0px ;
+    color: $primary;
+
+    @include respond-below(sm) {
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+
+  &-container {
+    .border {
+      border-bottom: 2px solid $primary;
+      width: 100%;
+      margin: 15px 0px;
+    }
+  }
+
+  img {
+    width: 260px;
+    position: relative;
+    left: 80px;
+
+    @include respond-below(sm) {
+      width: 100%;
+    }
+  }
+
+  &-heading, &-title {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 700;
+  }
+
+  &-text {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 400;
+    line-height: 16px;
+  }
+}
