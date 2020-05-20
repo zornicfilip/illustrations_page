@@ -545,6 +545,9 @@ body {
     .container {
       display: block; } }
 
+html {
+  scroll-behavior: smooth; }
+
 .float-left {
   float: left; }
 
@@ -559,8 +562,9 @@ body {
   margin: 0 auto; }
 
 .active {
-  color: black;
-  border-bottom: 2px solid #0D3E3E; }
+  color: black !important;
+  border-bottom: 2px solid #0D3E3E !important;
+  background-color: transparent !important; }
 
 .d-block {
   display: block; }
@@ -570,6 +574,9 @@ body {
 
 .d-inline-block {
   display: inline-block; }
+
+.d-none {
+  display: none; }
 
 .bold {
   font-weight: bold; }
@@ -794,7 +801,7 @@ footer {
     border-radius: 25px;
     font-family: 'Baloo Tamma 2', cursive;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 17px;
     height: auto;
     overflow: hidden; }
@@ -817,7 +824,7 @@ footer {
     border-radius: 25px;
     font-family: 'Baloo Tamma 2', cursive;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 17px;
     height: auto;
     overflow: hidden; }
@@ -846,7 +853,7 @@ footer {
       border-radius: 25px;
       font-family: 'Baloo Tamma 2', cursive;
       font-weight: 400;
-      font-size: 13px;
+      font-size: 14px;
       line-height: 17px;
       height: auto;
       overflow: hidden; }
@@ -1291,7 +1298,12 @@ p.assets-title {
       text-decoration: underline; }
 
 .shopping-cart-container {
-  margin-top: 50px; }
+  margin-top: 50px;
+  font-family: 'Baloo Tamma 2', cursive;
+  color: #0D3E3E; }
+  .shopping-cart-container h2, .shopping-cart-container p {
+    margin: 0;
+    padding: 0; }
   .shopping-cart-container-items {
     margin-top: 50px; }
 
@@ -1313,13 +1325,63 @@ p.assets-title {
       padding: 0; }
     .item-details p {
       font-weight: 400; }
-  .item i {
-    float: right; }
+    .item-details .price {
+      display: inline-block;
+      margin-top: 25px;
+      font-weight: 700; }
   .item img {
-    border-radius: 15px; }
+    border-radius: 15px;
+    width: 100%; }
+  .item-delete i {
+    float: right;
+    color: #0D3E3E;
+    transition: all .2s ease;
+    margin-top: 35px; }
+    .item-delete i:hover {
+      color: #f47d7d; }
 
 .payment {
   padding: 10px;
   margin-top: 50px;
   border-radius: 15px;
-  background-color: #F5F5F5; }
+  background-color: #F5F5F5;
+  height: 400px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px; }
+  .payment h1, .payment h2, .payment h3, .payment h4, .payment h5, .payment h6 {
+    font-family: 'Baloo Tamma 2', cursive;
+    color: #0D3E3E; }
+  .payment-container {
+    width: 100%;
+    margin-top: 5px;
+    position: relative; }
+    .payment-container label {
+      font-family: 'Baloo Tamma 2', cursive;
+      font-weight: 400; }
+    .payment-container input {
+      width: 91%;
+      background-color: #ffffff;
+      border: 1px solid transparent; }
+      .payment-container input:hover {
+        border: 1px solid #E6E6E6; }
+      @media (max-width: 768px) {
+        .payment-container input {
+          width: 96%; } }
+    .payment-container select {
+      padding: 10px;
+      border-radius: 10px;
+      width: 49%;
+      border: 1px solid transparent; }
+      .payment-container select:hover {
+        border: 1px solid #E6E6E6; }
+      .payment-container select:active, .payment-container select:focus {
+        outline: none;
+        box-shadow: none;
+        border: 1px solid #E6E6E6; }
+    .payment-container .btn-checkout {
+      width: 100%; }
+    .payment-container .payment-method {
+      position: absolute;
+      top: 38px;
+      right: 10px; }

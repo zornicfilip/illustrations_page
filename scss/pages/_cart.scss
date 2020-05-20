@@ -1,6 +1,13 @@
 .shopping-cart {
   &-container {
     margin-top: 50px;
+    font-family: 'Baloo Tamma 2', cursive;
+    color: $primary;
+
+    h2,p {
+      margin: 0;
+      padding: 0;
+    }
 
     &-items {
       margin-top: 50px;
@@ -33,14 +40,31 @@
     p {
       font-weight: 400;
     }
-  }
 
-  i {
-    float: right;
+    .price {
+      display: inline-block;
+      margin-top: 25px;
+      font-weight: 700;
+    }
   }
 
   img {
     border-radius: 15px;
+    width: 100%;
+  }
+
+  &-delete {
+
+    i {
+      float: right;
+      color: $primary;
+      transition: all .2s ease;
+      margin-top: 35px;
+
+      &:hover {
+        color: darken($red, 20%);
+      }
+    }
   }
 }
 
@@ -49,4 +73,65 @@
   margin-top: 50px;
   border-radius: 15px;
   background-color: $gray-light;
+  height: 400px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Baloo Tamma 2', cursive;
+    color: $primary;
+  }
+
+  &-container {
+    width: 100%;
+    margin-top: 5px;
+    position: relative;
+
+    label {
+      font-family: 'Baloo Tamma 2', cursive;
+      font-weight: 400;
+    }
+
+    input {
+      width: 91%;
+      background-color: $white;
+      border: 1px solid transparent;
+
+      &:hover {
+        border: 1px solid #E6E6E6;
+      }
+
+      @include respond-below(sm) {
+        width: 96%;
+      }
+    }
+
+    select {
+      padding: 10px;
+      border-radius: 10px;
+      width: 49%;
+      border: 1px solid transparent;
+
+      &:hover {
+        border: 1px solid #E6E6E6;
+      }
+
+      &:active, &:focus {
+        outline: none;
+        box-shadow: none;
+        border: 1px solid #E6E6E6;
+      }
+    }
+
+    .btn-checkout {
+      width: 100%;
+    }
+
+    .payment-method {
+      position: absolute;
+      top: 38px;
+      right: 10px;
+    }
+  }
 }

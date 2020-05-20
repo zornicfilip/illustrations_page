@@ -16,10 +16,10 @@
     <header>
         <nav class="nav">
             <img src="../img/logo.png" alt="header logo" class="logo">
-            <a href="" class="nav-item">Assets</a>
-            <a href="" class="nav-item">Custom</a>
-            <a href="" class="nav-item">Contact</a>
-            <a href="" class="nav-item">Sign In</a>
+            <a href="../assets_picker" class="nav-item">Assets</a>
+            <a href="../#contact" class="nav-item">Custom</a>
+            <a href="../#contact" class="nav-item">Contact</a>
+            <a href="../login/" class="nav-item">Sign In</a>
         </nav>
 
 
@@ -33,16 +33,16 @@
             <nav class="main-nav" id="main-nav">
                 <ul>
                     <li>
-                        <a href="#">Assets</a>
+                        <a href="../assets_picker">Assets</a>
                     </li>
                     <li>
-                        <a href="#">Custom</a>
+                        <a href="../#contact">Custom</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="../#contact">Contact</a>
                     </li>
                     <li>
-                        <a href="#">Sign In</a>
+                        <a href="../login">Sign In</a>
                     </li>
                 </ul>
             </nav>
@@ -52,13 +52,10 @@
 <div class="wrapper wrapper-60">
     <section class="shopping-cart">
         <div class="shopping-cart-container">
-
-            <h4>Shopping cart</h4>
+            <h2>Shopping cart</h2>
             <p>List of your selected packages</p>
-
             <div class="grid grid-2x-wide">
                 <div class="shopping-cart-container-items">
-
                     <div class="item">
                         <div>
                             <img src="../img/cart_1.png" alt="item">
@@ -67,7 +64,9 @@
                             <h5>Just Blue</h5>
                             <p class="item-description">Purchase once and for life</p>
                             <p class="price"><sup>$</sup> 10.50</p>
-                            <i class="far fa-trash-alt"></i>
+                            <a href="#" class="item-delete">
+                                <i class="far fa-trash-alt"></i>
+                            </a>
                         </div>
                     </div>
                     <div class="item">
@@ -75,10 +74,12 @@
                             <img src="../img/cart_2.png" alt="item">
                         </div>
                         <div class="item-details">
-                            <h5>Just Blue</h5>
+                            <h5>Isometric Life</h5>
                             <p class="item-description">Purchase once and for life</p>
                             <p class="price"><sup>$</sup> 10.50</p>
-                            <i class="far fa-trash-alt"></i>
+                            <a href="#" class="item-delete">
+                                <i class="far fa-trash-alt"></i>
+                            </a>
                         </div>
                     </div>
                     <div class="item">
@@ -86,17 +87,69 @@
                             <img src="../img/cart_3.png" alt="item">
                         </div>
                         <div class="item-details">
-                            <h5>Just Blue</h5>
+                            <h5>Flat people</h5>
                             <p class="item-description">Purchase once and for life</p>
                             <p class="price"><sup>$</sup> 10.50</p>
-                            <i class="far fa-trash-alt"></i>
+                            <a href="#" class="item-delete">
+                                <i class="far fa-trash-alt"></i>
+                            </a>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="payment">
+                    <h2>Card Details</h2>
+                    <form action="post" class="payment-">
 
+                        <div class="payment-container">
+                            <label for="name">Name on card</label><br>
+                            <input type="text" id="name" name="name">
+                        </div>
+
+                        <div class="payment-container">
+                            <label for="card_number">Card number</label><br>
+                            <input type="text" id="card_number" name="card_number">
+                            <img src="../img/mastercard.png" alt= master-card" class="payment-method master-card">
+                            <img src="../img/visa.png" alt="visa" class="d-none payment-method master-card">
+                        </div>
+
+                        <div class="payment-container">
+                            <label for="date">Expiration date</label><br>
+                            <select id="date" name="date" form="date">
+                                <option value="january">January</option>
+                                <option value="february">February</option>
+                                <option value="march">March</option>
+                                <option value="april">April</option>
+                                <option value="may">May</option>
+                                <option value="june">June</option>
+                                <option value="july">July</option>
+                                <option value="august">August</option>
+                                <option value="september">September</option>
+                                <option value="october">October</option>
+                                <option value="november">November</option>
+                                <option value="december">December</option>
+                            </select>
+
+                            <select id="date_year" name="date_year" form="date_year">
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                            </select>
+                        </div>
+
+                        <div class="payment-container">
+                            <label for="cvv">CVV</label><br>
+                            <input type="password" id="cvv" name="cvv">
+                        </div>
+
+                        <div class="payment-container">
+                            <button class="btn btn-primary btn-checkout">Checkout</button>
+                        </div>
+
+                    </form>
                 </div>
         </div>
     </section>

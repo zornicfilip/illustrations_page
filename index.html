@@ -15,13 +15,14 @@
         <div class="wrapper wrapper-60">
             <header>
                 <nav class="nav">
-                    <img src="img/logo.png" alt="header logo" class="logo">
-                    <a href="" class="nav-item">Assets</a>
-                    <a href="" class="nav-item">Custom</a>
-                    <a href="" class="nav-item">Contact</a>
-                    <a href="" class="nav-item">Sign In</a>
+                    <a href="#">
+                        <img src="img/logo.png" alt="header logo" class="logo">
+                    </a>
+                    <a href="/assets_picker/" class="nav-item">Assets</a>
+                    <a href="#contact" class="nav-item">Custom</a>
+                    <a href="#contact" class="nav-item">Contact</a>
+                    <a href="/login/" class="nav-item">Sign In</a>
                 </nav>
-
 
                 <div class="container">
                     <div class="header-container">
@@ -33,16 +34,16 @@
                     <nav class="main-nav" id="main-nav">
                         <ul>
                             <li>
-                                <a href="#">Assets</a>
+                                <a href="/assets_picker/">Assets</a>
                             </li>
                             <li>
-                                <a href="#">Custom</a>
+                                <a href="#contact">Custom</a>
                             </li>
                             <li>
-                                <a href="#">Contact</a>
+                                <a href="#contact">Contact</a>
                             </li>
                             <li>
-                                <a href="#">Sign In</a>
+                                <a href="/login/">Sign In</a>
                             </li>
                         </ul>
                     </nav>
@@ -56,9 +57,11 @@
                             </h1>
                             <div class="border"></div>
                             <h5>Digital ressources for <br>startups, designers and developers</h5>
-                            <button class="btn btn-primary hero-btn">
-                                Explore packages
-                            </button>
+                            <a href="/assets_picker">
+                                <button class="btn btn-primary hero-btn">
+                                    Explore packages
+                                </button>
+                            </a>
                         </div>
                         <div>
                             <img src="img/welcome.png" alt="welcoming people illustrations">
@@ -69,6 +72,7 @@
         </div>
         <div class="wrapper wrapper-60">
             <section>
+                <div class="padding-2"></div>
                 <div class="highlight-text">
                     <p>
                         We create unique and high quality illustrations that can make your workflow more efficient
@@ -79,15 +83,18 @@
                         So go ahead and make your web pages and apps more engaging
                     </p>
                 </div>
+                <div class="padding-2"></div>
                 <div class="asset-display">
                     <div class="gid grid-1x package">
                         <div class="package-bundle">
                             <h2 class="bold">The Bundle</h2>
                             <p>Bundle up and save up to 25% <br> by buying all packages at once</p>
                             <h4 class="bold">Save up to 25%</h4>
-                            <button class="btn btn-primary">
-                                Bundle for - $100
-                            </button>
+                            <a href="/cart/">
+                                <button class="btn btn-primary">
+                                    Bundle for - $100
+                                </button>
+                            </a>
                         </div>
                     </div>
                     <div class="grid grid-2x package">
@@ -102,9 +109,11 @@
                                     Over 100 incredible blue themed illustrations for app and web design, products and life situations.
                                 </p>
                                 <div class="btn-container">
-                                    <button class="btn btn-primary float-right">
-                                        $$$
-                                    </button>
+                                    <a href="/just_blue/">
+                                        <button class="btn btn-primary float-right">
+                                            $$$
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -120,9 +129,11 @@
                                     Over 100 incredible isometric themed illustrations for app and web design, products and life situations.
                                 </p>
                                 <div class="btn-container">
-                                    <button class="btn btn-primary float-right">
-                                        $$$
-                                    </button>
+                                    <a href="/isometric_life/">
+                                        <button class="btn btn-primary float-right">
+                                            $$$
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -139,15 +150,17 @@
                                     Over 100 incredible flat designed illustrations for app and web design, products and life situations.
                                 </p>
                                 <div class="btn-container">
-                                    <button class="btn btn-primary float-right">
-                                        $$$
-                                    </button>
+                                    <a href="/flat_people/">
+                                        <button class="btn btn-primary float-right">
+                                            $$$
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="contact">
+                <div class="contact" id="contact">
                     <div class="grid grid-2x">
                         <div>
                             <h1>Are you stuck?</h1>
@@ -173,13 +186,13 @@
                         <div>
                             <img src="img/logo.png" alt="logo footer" class="logo-footer">
                             <div class="social">
-                                <a href="">
+                                <a href="#">
                                     <i class="fab fa-instagram"></i>
                                 </a>
-                                <a href="">
+                                <a href="#">
                                     <i class="fab fa-facebook"></i>
                                 </a>
-                                <a href="">
+                                <a href="#">
                                     <i class="fab fa-twitter"></i>
                                 </a>
                             </div>
@@ -188,13 +201,13 @@
                             <h4>Assets</h4>
                             <ul>
                                 <li>
-                                    <a href="#">Just Blue</a>
+                                    <a href="/just_blue/">Just Blue</a>
                                 </li>
                                 <li>
-                                    <a href="#">Isometric Life</a>
+                                    <a href="/isometric_life/">Isometric Life</a>
                                 </li>
                                 <li>
-                                    <a href="#">Flat People</a>
+                                    <a href="/flat_people/">Flat People</a>
                                 </li>
                             </ul>
                         </div>
@@ -202,23 +215,22 @@
                             <h4>Other</h4>
                             <ul>
                                 <li>
-                                    <a href="#">Contact</a>
+                                    <a href="/imprint/">Imprint and terms</a>
                                 </li>
                                 <li>
-                                    <a href="#">License</a>
+                                    <a href="/privacy/">Privacy and refund policy</a>
                                 </li>
                                 <li>
-                                    <a href="#">Impressum</a>
-                                </li>
-                                <li>
-                                    <a href="#">FAQ</a>
+                                    <a href="/faq/">FAQ</a>
                                 </li>
                             </ul>
                         </div>
                         <div>
-                            <button class="btn btn-primary btn-footer">
-                                Sign Up
-                            </button>
+                            <a href="/signup/">
+                                <button class="btn btn-primary btn-footer">
+                                    Sign Up
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
