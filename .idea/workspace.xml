@@ -3,20 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ef1ff943-1556-47a8-954f-1253db17a363" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets_picker/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets_picker/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flat_people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flat_people/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forgot_password/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/forgot_password/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imprint/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/imprint/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/isometric_life/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/isometric_life/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/just_blue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/just_blue/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_password/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/new_password/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/privacy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/privacy/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +64,7 @@
       <workItem from="1589635490321" duration="3458000" />
       <workItem from="1589866603512" duration="27368000" />
       <workItem from="1589951660991" duration="30875000" />
-      <workItem from="1590039160885" duration="6691000" />
+      <workItem from="1590039160885" duration="8634000" />
     </task>
     <servers />
   </component>
